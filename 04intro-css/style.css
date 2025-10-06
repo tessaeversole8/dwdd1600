@@ -42,7 +42,7 @@ nav a {
     font-weight: 600;
 }
 
-nav li.active a {
+nav li a.active {
     background-color: #038A44;
     color: #F2D64B;
 }
