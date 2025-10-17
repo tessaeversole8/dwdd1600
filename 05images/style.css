@@ -23,7 +23,7 @@ header span {
 
 /* Navigation styling */
 nav {
-    background-color: #F2D64B;
+    background-color: #038A44;
 }
 
 nav ul {
@@ -43,8 +43,8 @@ nav a {
 }
 
 nav li.active a {
-    background-color: #038A44;
-    color: #F2D64B;
+    background-color: #F2D64B;
+    color: #038A44;
 }
 
 nav li a:hover {
@@ -129,6 +129,7 @@ figure.wrapped img{
 figure.wrapped figcaption{
     text-align: center;
     font-size: .75rem;
+    color: #038A44;
 }
 
 
@@ -141,7 +142,6 @@ div.gallery {
 }
 div.gallery figure {
     margin: 0;
-    width: 30%
 }
 div.gallery figcaption {
     text-align: center;
