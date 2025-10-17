@@ -11,7 +11,7 @@ body {
 
 /* Header styling */
 header {
-    background-color: #F2D64B;
+    background-color:#38A2D6 ;
     padding: 1rem 10px;
 }
 
@@ -23,7 +23,7 @@ header span {
 
 /* Navigation styling */
 nav {
-    background-color: #38A2D6;
+    background-color: #F2D64B;
 }
 
 nav ul {
@@ -141,11 +141,12 @@ div.gallery {
 }
 div.gallery figure {
     margin: 0;
+    width: 30%
 }
 div.gallery figcaption {
     text-align: center;
     font-size: .8rem;
-    color: #376259;
+    color: #038A44;
 }
 /* Optional: Address block styling */
 main address {
