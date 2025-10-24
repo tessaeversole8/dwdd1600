@@ -178,11 +178,11 @@ main address {
 
 .myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea
 {
-    border: solid 1px #a0a0a0;
+    border: solid 1px;
     padding: .3rem;
     width: 250px;
     border-radius: .3rem;
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: 200;
 }
 .myForm textarea{
