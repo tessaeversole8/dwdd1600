@@ -3,11 +3,14 @@
 
 
 body {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
+    font-family: "quicksand", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     margin: 0;
-    font-size: 16px;
+    background-color: #E6E6E4;
+    color: #212530;
 }
+    
 /* Header styling */
 header {
     background-color:#38A2D6 ;
@@ -37,9 +40,9 @@ header span {
         text-transform: uppercase;
     }
     nav .active a {
-        background-color: #038A44;
-        color: white;
-        background-image: linear-gradient(to bottom, #038A44, #024321 );
+        background-color: #F2D64B;
+        color: #038A44;
+        background-image: linear-gradient(to bottom, #F2D64B, #96842e );
     }
     
 } 
@@ -51,7 +54,7 @@ header span {
 nav {
     background-color: #038A44;
     border-top: solid 1px #E0E6E6;
-    
+
 }
 
 nav ul {
@@ -82,14 +85,6 @@ nav li.active a {
 }
 /* end LARGE screen navigation */
 
-body {
-    font-family: "quicksand", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 0;
-    background-color: #E6E6E4;
-    color: #212530;
-}
 
 
 /* Main content styling */
