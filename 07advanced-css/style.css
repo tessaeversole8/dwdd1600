@@ -53,33 +53,31 @@ header span {
     
 nav {
     background-color: #038A44;
-    border-top: solid 1px #E0E6E6;
-
 }
 
 nav ul {
     margin: 0;
-    padding: 0 2vw;
+    padding: 0 10px;
     list-style-type: none;
     display: flex;
 }
 
 nav a {
     display: block;
-    padding: 1.2rem 1rem .3rem 1rem;
-    font-size: 1rem;
+    padding: 0.83rem 1rem;
     text-decoration: none;
-    color: #038A44;
+    font-size: 1.1rem;
+    color: #E6E6E4;
     font-weight: 600;
-    text-transform: uppercase;
-    text-align: center;
-    border-bottom: solid 2px #fff;
 }
 
 nav li.active a {
     background-color: #F2D64B;
     color: #038A44;
-    border-bottom: solid 2px #038A44;
+}
+
+nav li a:hover {
+    color: #212530;
 }
 
 }
