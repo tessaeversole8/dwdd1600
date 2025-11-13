@@ -25,6 +25,9 @@ header span {
 
 /* small screen navigation */
 @media only screen and (max-width: 800px) {
+    nav {
+    background-color: #038A44;
+    }
     nav ul {
         margin: 0;
         padding: 0;
@@ -33,7 +36,7 @@ header span {
         display: block;
         text-align: center;
         padding: .8rem;
-        color: #038A44;
+        color: white;
         text-decoration: none;
         border-bottom: solid 1px #eee;
         font-weight: 700;
@@ -42,7 +45,7 @@ header span {
     nav .active a {
         background-color: #F2D64B;
         color: #038A44;
-        background-image: linear-gradient(to bottom, #F2D64B, #96842e );
+        background-image: linear-gradient(to bottom, #f1de7b, #F2D64B );
     }
     
 } 
