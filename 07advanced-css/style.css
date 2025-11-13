@@ -1,4 +1,91 @@
+/* prevent problems on diffrent browzers */
+* {box-sizing: border-box;}
 
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    font-size: 16px;
+}
+/* header stuff here */
+header {
+    padding: 1rem 2vw;
+}
+header span {
+    margin: 0;
+    color: #38A2D6;
+    font-size: 2rem;
+    font-weight: 700;
+}
+header p {
+    margin: 0;
+    color: #38A2D6;
+    font-size: 1.22rem;
+    letter-spacing: 2px;
+}
+
+/* small screen navigation */
+@media only screen and (max-width: 800px) {
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+    nav a {
+        display: block;
+        text-align: center;
+        padding: .8rem;
+        color: #038A44;
+        text-decoration: none;
+        border-bottom: solid 1px #eee;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    nav .active a {
+        background-color: #038A44;
+        color: white;
+        background-image: linear-gradient(to bottom, #038A44, #024321 );
+    }
+    
+} /* end small screen navigation */
+
+
+
+
+
+/* LARGE screen navigation */
+@media only screen and (max-width: 801px) {
+    
+} 
+nav {
+    border-top: solid 1px #E0E6E6;
+    
+}
+nav ul {
+    margin: 0;
+    padding: 0 2vw;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 1.2rem 1rem .3rem 1rem;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #038A44;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: solid 2px #fff;
+}
+
+nav .active a {
+    border-bottom: solid 2px #038A44;
+}
+nav a:hover {
+    color: #000;
+}
+/* end LARGE screen navigation */
 
 body {
     font-family: "quicksand", sans-serif;
