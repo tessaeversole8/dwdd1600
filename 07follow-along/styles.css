@@ -47,14 +47,13 @@ header p {
         background-image: linear-gradient(to bottom, #8C501B, #663b19 );
     }
     
-} /* end small screen navigation */
-
-
+} 
+/* end small screen navigation */
 
 /* LARGE screen navigation */
 @media only screen and (min-width: 801px) {
     
-} 
+
 nav {
     border-top: solid 1px #E0E6E6;
     
@@ -83,7 +82,7 @@ nav .active a {
 nav a:hover {
     color: #000;
 }
-/* end LARGE screen navigation */
+}/* end LARGE screen navigation */
 
 
 
