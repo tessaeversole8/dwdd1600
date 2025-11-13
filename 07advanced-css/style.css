@@ -49,7 +49,7 @@ header span {
 /* end small screen navigation */
 
 /* LARGE screen navigation */
-@media only screen and (max-width: 801px) {
+@media only screen and (min-width: 801px) {
     
 nav {
     background-color: #038A44;
