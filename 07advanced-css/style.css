@@ -157,7 +157,7 @@ main dl dd {
 figure.wrapped{
 margin: 0 0 0 10px;
 width: 40%;
-float: right;
+float: right; 
 }
 figure.wrapped img{
     width: 100%;
@@ -165,7 +165,7 @@ figure.wrapped img{
 }
 figure.wrapped figcaption{
     text-align: center;
-    font-size: 1rem;
+    font-size: 1rem; 
     color: #038A44;
 }
 
