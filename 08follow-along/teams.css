@@ -132,6 +132,8 @@ ul li {
 }
 
 /* table stuff here */
+
+
 table.activities {
     width: 100%;
     border-collapse: collapse;
@@ -142,11 +144,11 @@ table.activities th {
     padding: .6rem 2%;
     text-align: left;
 }
-table.activities th {
+table.activities td {
     color: #54691f;
     padding: .4rem 2%;
 }
-table.activities th:nth-child(odd) {
+table.activities tr:nth-child(odd) {
     background-color: #eee;
 }
 table.activities tr:hover {
