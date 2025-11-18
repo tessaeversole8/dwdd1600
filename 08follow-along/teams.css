@@ -143,7 +143,7 @@ table.activities th {
     text-align: left;
 }
 table.activities th {
-    color: #54691f
+    color: #54691f;
     padding: .4rem 2%;
 }
 table.activities th:nth-child(odd) {
