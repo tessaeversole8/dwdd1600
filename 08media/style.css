@@ -1,0 +1,295 @@
+/* prevent problems on diffrent browzers */
+* {box-sizing: border-box;}
+
+
+body {
+    font-family: "quicksand", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    background-color: #E6E6E4;
+    color: #212530;
+}
+    
+/* Header styling */
+header {
+    background-color:#38A2D6 ;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #212530;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+/* small screen navigation */
+@media only screen and (max-width: 800px) {
+    nav {
+    background-color: #038A44;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+    nav a {
+        display: block;
+        text-align: center;
+        padding: .8rem;
+        color: white;
+        text-decoration: none;
+        border-bottom: solid 1px #eee;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    nav .active a {
+        background-color: #F2D64B;
+        color: #038A44;
+        background-image: linear-gradient(to bottom, #f1de7b, #F2D64B );
+    }
+    
+} 
+/* end small screen navigation */
+
+/* LARGE screen navigation */
+@media only screen and (min-width: 801px) {
+    
+nav {
+    background-color: #038A44;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 0.83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #E6E6E4;
+    font-weight: 600;
+}
+
+nav li.active a {
+    background-color: #F2D64B;
+    color: #038A44;
+}
+
+nav li a:hover {
+    color: #212530;
+}
+
+}
+/* end LARGE screen navigation */
+
+
+
+/* Main content styling */
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #212530;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+main h2 {
+    color: #038A44;
+    margin-bottom: 0.2rem;
+    font-weight: 500;
+}
+
+main p {
+    margin: 0 0 1rem 0;
+    color: #212530;
+}
+
+main em {
+    font-style: italic;
+    font-weight: 300;
+}
+
+main strong {
+    font-weight: 600;
+    color: #038A44;
+}
+
+main ul {
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    padding-left: 1.5rem;
+}
+
+main a {
+    color: #38A2D6;
+    text-decoration: underline;
+}
+
+main a:hover {
+    color: #038A44;
+}
+
+/* Optional: lists like ol or dl */
+main ol {
+    padding: 0.5rem 30px;
+    background-color: #d9d9d9;
+}
+
+main dl dt {
+    color: #038A44;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+main dl dd {
+    color: #212530;
+    font-size: 0.9rem;
+    margin-left: 20px;
+}
+/* main image stuff here */
+figure.wrapped{
+margin: 0 0 0 10px;
+width: 40%;
+float: right; 
+}
+figure.wrapped img{
+    width: 100%;
+    height: auto;
+}
+figure.wrapped figcaption{
+    text-align: center;
+    font-size: 1rem; 
+    color: #038A44;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+}
+
+/* gallery stuff here */
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+    border-radius: 5px;
+}
+
+div.gallery img:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+div.gallery figure {
+    margin: 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: 1rem;
+    color: #038A44;
+}
+/* Optional: Address block styling */
+main address {
+    font-style: normal;
+    background-color: #F2D64B;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid #038A44;
+    width: 200px;
+    margin-bottom: 1rem;
+}
+
+.myForm fieldset{
+    border: 1px solid #38A2D6;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+.myForm legend{
+    color: #38A2D6;
+    font-size: .8rem;
+}
+.myForm label{
+    margin: .5rem;
+}
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], 
+.myForm textarea{
+    display: block;
+}
+
+.myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea
+{
+    border: solid 1px;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+}
+.myForm textarea{
+    height: 6rem;
+}
+
+.myForm :required   {
+    background-color: #90A395;
+}
+
+.myForm [type=submit]{
+    background-color: #38A2D6;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: #E6E6E4;
+    margin: 1rem 0 0 1vw;
+}
+
+
+
+table.cost {
+    width: 100%;
+    border-collapse: collapse;
+}
+table.cost th {
+    background-color: #38A2D6;
+    color: white;
+    padding: .6rem 2%;
+    text-align: left;
+}
+table.cost td {
+    color: #038A44;
+    padding: .4rem 2%;
+}
+table.cost tr:nth-child(odd) {
+    background-color: #eee;
+}
+table.cost tr:hover {
+    background-color: #ddd;
+}
+
+
+
+/* Footer styling */
+footer {
+    background-color: #212530;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.8rem;
+    color: #E6E6E4;
+}
+
+footer p {
+    font-size: 0.8rem;
+    color: #E6E6E4;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header, nav, main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}

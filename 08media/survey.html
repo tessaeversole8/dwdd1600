@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Tessa Eversole">
+    <meta name="description" content="Learn about the Studio Ghibli">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico"/>
+    <title>Studio Ghibli Amnimation Magic</title>
+</head>
+
+<body>
+    <!--start the page header here-->
+    <header>
+        <img src="images/logo.png" alt="Logo for Studio Ghibli" width="50" height="50"/>
+        <span>Studio Ghibli Animation Magic</span>
+    </header>
+    <!--start the page navigation here-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Studio Ghibli</a></li>
+            <li><a href="miyazaki.html">Miyazaki</a></li>
+            <li><a href="filmography.html">Filmography</a></li>
+            <li class="active"></li><a href="survey.html">Survey</a></li>
+            <li><a href="style.html">Style</a></li>
+            <li><a href="museum.html">Museum</a></li>
+        </ul>
+
+    </nav>
+    <!--start the page main content here-->
+    <main>
+<main>
+        <h1>Take this Survey</h1>
+        <h2>We would love to learn more about you!</h2>
+        <form method="get" class="myForm" action="thanks.html">
+
+        <fieldset>
+        <legend>Customer Information</legend>
+        <label>Full Name*<input type="text" name="fname" required>
+        </label>
+        <label>Email*<input type="text" name="email" required
+        placeholder="random@gmail.com">
+        </label>
+        <label>Cell Number*<input type="tel" name="phone" required 
+        placeholder="987-555-1234">
+        </label>
+        <label>Level of Knowledge
+            <select name="knowledge">
+            <option value="none">None</option>
+            <option value="little">I've heard about it a little.</option>
+            <option value="middle">I've watched a couple of the movies.</option>
+            <option value="alot">I've watched and know the work behind it.</option>
+            <option value="everything">I know everything!</option>
+            </select>
+            </label>
+        </feildset>
+
+        <fieldset>
+            <legend>Favorite Movies</legend>
+            <label><input type="checkbox" name="totoro" 
+            value="chosen">My Neighbor Totoro</label>
+            <label><input type="checkbox" name="howls" 
+            value="chosen">Howl's Moving Castle</label>
+            <label><input type="checkbox" name="spirited" 
+            value="chosen">Spirited Away</label>
+            <label><input type="checkbox" name="mononoke" 
+            value="chosen">Princess Mononoke</label>
+            <label><input type="checkbox" name="kikis" 
+            value="chosen">Kiki's Delivery Service</label>
+            <label><input type="checkbox" name="ponyo" 
+            value="chosen">Ponyo</label>
+            <label><input type="checkbox" name="none" 
+            value="chosen">None of the Above</label>
+        </fieldset>
+
+        <fieldset>
+        <legend>Would you like to sign up for the Newsletter?</legend>
+        <label><input type="radio" name="method" 
+        value="yes">Yes</label>
+        <label><input type="radio" name="method" 
+        value="no">No</label>
+        <label><input type="radio" name="method" 
+        value="maybe">Maybe Later</label>
+        </fieldset>
+        
+
+        <label>Comments or Questions
+            <textarea name="comments"></textarea>
+        </label>
+
+        <input type="submit" value="Submit Survey">    
+    </form>
+    </main>
+
+
+
+
+    <!--start the page footer here-->
+    <footer>
+        <p>&copy; 2025 &bull; Tessa Eversole &bull; Web Essentials</p>
+    </footer>
+</body>
+
+</html>
