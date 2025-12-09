@@ -1,0 +1,233 @@
+/* prevent problems on diffrent browzers */
+* {box-sizing: border-box;}
+
+
+body {
+    font-family: "quicksand", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    background-color: #E6E6E4;
+    color: #001219;
+}
+    
+/* Header styling */
+
+header {
+    background-color: #94D2BD ;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #001219;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+/* small screen navigation */
+@media only screen and (max-width: 800px) {
+    nav {
+    background-color: #0A9396;
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+    }
+    nav a {
+        display: block;
+        text-align: center;
+        padding: .8rem;
+        color: white;
+        text-decoration: none;
+        border-bottom: solid 1px #eee;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    nav .active a {
+        background-color: #E9D8A6;
+        color: #0A9396;
+        background-image: linear-gradient(to bottom, #e1d8be, #E9D8A6 );
+    }
+    
+} 
+/* end small screen navigation */
+
+/* LARGE screen navigation */
+@media only screen and (min-width: 801px) {
+    
+nav {
+    background-color: #0A9396;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 0.83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #E6E6E4;
+    font-weight: 600;
+}
+
+nav li.active a {
+    background-color: #E9D8A6;
+    color: #0A9396;
+}
+
+nav li a:hover {
+    color: #001219;
+}
+
+}
+/* end LARGE screen navigation */
+
+
+
+/* Main content styling */
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #001219;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+main h2 {
+    color: #0A9396;
+    margin-bottom: 0.2rem;
+    font-weight: 500;
+}
+
+main p {
+    margin: 0 0 1rem 0;
+    color: #001219;
+}
+
+main em {
+    font-style: italic;
+    font-weight: 300;
+}
+
+main strong {
+    font-weight: 600;
+    color: #0A9396;
+}
+
+main ul {
+    line-height: 1.4;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+    padding-left: 1.5rem;
+}
+
+main a {
+    color: #94D2BD;
+    text-decoration: underline;
+}
+
+main a:hover {
+    color: #0A9396;
+}
+
+
+.hero {
+    width: 100%;
+    height: auto;
+}
+
+/* gallery stuff here */
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+    border-radius: 5px;
+}
+
+div.gallery img:hover {
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+div.gallery figure {
+    margin: 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: 1rem;
+    color: #0A9396;
+}
+
+
+.myForm fieldset{
+    border: 1px solid #94D2BD;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+.myForm legend{
+    color: #38A2D6;
+    font-size: .8rem;
+}
+.myForm label{
+    margin: .5rem;
+}
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], 
+.myForm textarea{
+    display: block;
+}
+
+.myForm [type=text], .myForm [type=tel], .myForm select, .myForm textarea
+{
+    border: solid 1px;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+}
+.myForm textarea{
+    height: 6rem;
+}
+
+.myForm :required   {
+    background-color: #00606352;
+}
+
+.myForm [type=submit]{
+    background-color: #005F63;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: #FAFAFA;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+
+/* Footer styling */
+footer {
+    background-color:#001219;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.8rem;
+    color: #E6E6E4;
+}
+
+footer p {
+    font-size: 0.8rem;
+    color: #E6E6E4;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header, nav, main, footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
