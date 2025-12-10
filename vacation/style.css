@@ -45,7 +45,7 @@ header span {
         text-transform: uppercase;
         border-radius: 12px;
         margin: 6px;
-}
+    }
     nav .active a {
         background-color: #E9D8A6;
         color: #0A9396;
